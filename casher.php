@@ -199,7 +199,8 @@ define('FM_THEME', $theme);
 
 //available languages
 $lang_list = array(
-    'en' => 'English'
+    'en' => 'English',
+    'pt' => 'Português'
 );
 
 if ($report_errors == true) {
