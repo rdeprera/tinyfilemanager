@@ -5690,6 +5690,8 @@ $tr['pt']['Date Modified'] = 'Data de modificação';
 $tr['pt']['File size'] = 'Tamanho do arquivo';
 $tr['pt']['MIME-type'] = 'Tipo MIME';
 
+        $tr['pt']['Sometimes the save action may not work on the first try, so please attempt it again'] = 'Às vezes a ação de salvar pode não funcionar na primeira tentativa, então tente novamente';
+
 
         $i18n = fm_get_translations($tr);
         $tr = $i18n ? $i18n : $tr;
