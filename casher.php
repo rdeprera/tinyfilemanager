@@ -1,6 +1,6 @@
 <?php
 //Default Configuration
-$CONFIG = '{"lang":"en","error_reporting":false,"show_hidden":false,"hide_Cols":false,"theme":"light"}';
+$CONFIG = '{"lang":"pt","error_reporting":false,"show_hidden":false,"hide_Cols":false,"theme":"light"}';
 
 /**
  * H3K ~ Tiny File Manager V2.6
@@ -357,13 +357,7 @@ if ($use_auth) {
                                 <form class="form-signin" action="" method="post" autocomplete="off">
                                     <div class="mb-3">
                                         <div class="brand">
-                                            <svg version="1.0" xmlns="http://www.w3.org/2000/svg" M1008 width="100%" height="80px" viewBox="0 0 238.000000 140.000000" aria-label="Tiny File Manager forked By M4|4v1t4">
-                                                <g transform="translate(0.000000,140.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
-                                                    <path d="M160 700 l0 -600 110 0 110 0 0 260 0 260 70 0 70 0 0 -260 0 -260 110 0 110 0 0 600 0 600 -110 0 -110 0 0 -260 0 -260 -70 0 -70 0 0 260 0 260 -110 0 -110 0 0 -600z" />
-                                                    <path fill="#003500" d="M1008 1227 l-108 -72 0 -117 0 -118 110 0 110 0 0 110 0 110 70 0 70 0 0 -180 0 -180 -125 0 c-69 0 -125 -3 -125 -6 0 -3 23 -39 52 -80 l52 -74 73 0 73 0 0 -185 0 -185 -70 0 -70 0 0 115 0 115 -110 0 -110 0 0 -190 0 -190 181 0 181 0 109 73 108 72 1 181 0 181 -69 48 -68 49 68 50 69 49 0 249 0 248 -182 -1 -183 0 -107 -72z" />
-                                                    <path d="M1640 700 l0 -600 110 0 110 0 0 208 0 208 35 34 35 34 35 -34 35 -34 0 -208 0 -208 110 0 110 0 0 212 0 213 -87 87 -88 88 88 88 87 87 0 213 0 212 -110 0 -110 0 0 -208 0 -208 -70 -69 -70 -69 0 277 0 277 -110 0 -110 0 0 -600z" />
-                                                </g>
-                                            </svg>
+                                            
                                         </div>
                                         <div class="text-center">
                                             <h1 class="card-title"><?php echo APP_TITLE; ?></h1>
@@ -5586,6 +5580,116 @@ function fm_show_header_login()
         $tr['en']['Date Modified']                                  = 'Date Modified';
         $tr['en']['File size']                                      = 'File size';
         $tr['en']['MIME-type']                                      = 'MIME-type';
+
+        $tr['pt']['AppName']        = 'Tiny File Manager forked By M4|4v1t4';
+$tr['pt']['AppTitle']       = 'Gerenciador de Arquivos';
+$tr['pt']['Login']          = 'Entrar';
+$tr['pt']['Username']       = 'Usuário';
+$tr['pt']['Password']       = 'Senha';
+$tr['pt']['Logout']         = 'Sair';
+$tr['pt']['Move']           = 'Mover';
+$tr['pt']['Copy']           = 'Copiar';
+$tr['pt']['Save']           = 'Salvar';
+$tr['pt']['SelectAll']      = 'Selecionar tudo';
+$tr['pt']['UnSelectAll']    = 'Desselecionar tudo';
+$tr['pt']['File']           = 'Arquivo';
+$tr['pt']['Back']           = 'Voltar';
+$tr['pt']['Size']           = 'Tamanho';
+$tr['pt']['Perms']          = 'Permissões';
+$tr['pt']['Modified']       = 'Modificado';
+$tr['pt']['Owner']          = 'Proprietário';
+$tr['pt']['Search']         = 'Pesquisar';
+$tr['pt']['NewItem']        = 'Novo Item';
+$tr['pt']['Folder']         = 'Pasta';
+$tr['pt']['Delete']         = 'Excluir';
+$tr['pt']['Rename']         = 'Renomear';
+$tr['pt']['CopyTo']         = 'Copiar para';
+$tr['pt']['DirectLink']     = 'Link direto';
+$tr['pt']['UploadingFiles'] = 'Enviando arquivos';
+$tr['pt']['ChangePermissions'] = 'Alterar permissões';
+$tr['pt']['Copying']        = 'Copiando';
+$tr['pt']['CreateNewItem']  = 'Criar novo item';
+$tr['pt']['Name']           = 'Nome';
+$tr['pt']['AdvancedEditor'] = 'Editor avançado';
+$tr['pt']['Actions']        = 'Ações';
+$tr['pt']['Folder is empty'] = 'A pasta está vazia';
+$tr['pt']['Upload']         = 'Enviar';
+$tr['pt']['Cancel']         = 'Cancelar';
+$tr['pt']['InvertSelection'] = 'Inverter seleção';
+$tr['pt']['DestinationFolder'] = 'Pasta de destino';
+$tr['pt']['ItemType']       = 'Tipo de item';
+$tr['pt']['ItemName']       = 'Nome do item';
+$tr['pt']['CreateNow']      = 'Criar agora';
+$tr['pt']['Download']       = 'Baixar';
+$tr['pt']['Open']           = 'Abrir';
+$tr['pt']['UnZip']          = 'Descompactar';
+$tr['pt']['UnZipToFolder']  = 'Descompactar na pasta';
+$tr['pt']['Edit']           = 'Editar';
+$tr['pt']['NormalEditor']   = 'Editor normal';
+$tr['pt']['BackUp']         = 'Backup';
+$tr['pt']['SourceFolder']   = 'Pasta de origem';
+$tr['pt']['Files']          = 'Arquivos';
+$tr['pt']['Change']         = 'Alterar';
+$tr['pt']['Settings']       = 'Configurações';
+$tr['pt']['Language']       = 'Idioma';
+$tr['pt']['ErrorReporting'] = 'Relatório de erros';
+$tr['pt']['ShowHiddenFiles'] = 'Mostrar arquivos ocultos';
+$tr['pt']['Help']           = 'Ajuda';
+$tr['pt']['Created']        = 'Criado';
+$tr['pt']['Help Documents'] = 'Documentos de ajuda';
+$tr['pt']['Report Issue']   = 'Reportar problema';
+$tr['pt']['Generate']       = 'Gerar';
+$tr['pt']['FullSize']       = 'Tamanho completo';
+$tr['pt']['HideColumns']    = 'Ocultar colunas Permissões/Proprietário';
+$tr['pt']['You are logged in'] = 'Você está logado';
+$tr['pt']['Nothing selected'] = 'Nada selecionado';
+$tr['pt']['Paths must be not equal'] = 'Os caminhos não podem ser iguais';
+$tr['pt']['Renamed from']   = 'Renomeado de';
+$tr['pt']['Archive not unpacked'] = 'Arquivo não descompactado';
+$tr['pt']['Deleted']        = 'Excluído';
+$tr['pt']['Archive not created'] = 'Arquivo não criado';
+$tr['pt']['Copied from']    = 'Copiado de';
+$tr['pt']['Permissions changed'] = 'Permissões alteradas';
+$tr['pt']['to']             = 'para';
+$tr['pt']['Saved Successfully'] = 'Salvo com sucesso';
+$tr['pt']['not found!']     = 'não encontrado!';
+$tr['pt']['File Saved Successfully'] = 'Arquivo salvo com sucesso';
+$tr['pt']['Archive']        = 'Arquivo compactado';
+$tr['pt']['Permissions not changed'] = 'Permissões não alteradas';
+$tr['pt']['Select folder']  = 'Selecionar pasta';
+$tr['pt']['Source path not defined'] = 'Caminho de origem não definido';
+$tr['pt']['already exists'] = 'já existe';
+$tr['pt']['Error while moving from'] = 'Erro ao mover de';
+$tr['pt']['Create archive?'] = 'Criar arquivo compactado?';
+$tr['pt']['Invalid file or folder name'] = 'Nome de arquivo ou pasta inválido';
+$tr['pt']['Archive unpacked'] = 'Arquivo descompactado';
+$tr['pt']['File extension is not allowed'] = 'Extensão de arquivo não permitida';
+$tr['pt']['Root path']      = 'Caminho raiz';
+$tr['pt']['Error while renaming from'] = 'Erro ao renomear de';
+$tr['pt']['File not found'] = 'Arquivo não encontrado';
+$tr['pt']['Error while deleting items'] = 'Erro ao excluir itens';
+$tr['pt']['Moved from']     = 'Movido de';
+$tr['pt']['Generate new password hash'] = 'Gerar novo hash de senha';
+$tr['pt']['Login failed. Invalid username or password'] = 'Falha no login. Usuário ou senha inválidos';
+$tr['pt']['password_hash not supported, Upgrade PHP version'] = 'password_hash não suportado, atualize a versão do PHP';
+$tr['pt']['Advanced Search'] = 'Pesquisa avançada';
+$tr['pt']['Error while copying from'] = 'Erro ao copiar de';
+$tr['pt']['Invalid characters in file name'] = 'Caracteres inválidos no nome do arquivo';
+$tr['pt']['FILE EXTENSION HAS NOT SUPPORTED'] = 'EXTENSÃO DE ARQUIVO NÃO SUPORTADA';
+$tr['pt']['Selected files and folder deleted'] = 'Arquivos e pastas selecionados foram excluídos';
+$tr['pt']['Error while fetching archive info'] = 'Erro ao obter informações do arquivo';
+$tr['pt']['Delete selected files and folders?'] = 'Excluir os arquivos e pastas selecionados?';
+$tr['pt']['Search file in folder and subfolders...'] = 'Pesquisar arquivo na pasta e subpastas...';
+$tr['pt']['Access denied. IP restriction applicable'] = 'Acesso negado. Restrição de IP aplicada';
+$tr['pt']['Invalid characters in file or folder name'] = 'Caracteres inválidos no nome do arquivo ou pasta';
+$tr['pt']['Operations with archives are not available'] = 'Operações com arquivos compactados não estão disponíveis';
+$tr['pt']['File or folder with this path already exists'] = 'Já existe um arquivo ou pasta com este caminho';
+$tr['pt']['Are you sure want to rename?'] = 'Tem certeza que deseja renomear?';
+$tr['pt']['Are you sure want to'] = 'Tem certeza que deseja';
+$tr['pt']['Date Modified'] = 'Data de modificação';
+$tr['pt']['File size'] = 'Tamanho do arquivo';
+$tr['pt']['MIME-type'] = 'Tipo MIME';
+
 
         $i18n = fm_get_translations($tr);
         $tr = $i18n ? $i18n : $tr;
