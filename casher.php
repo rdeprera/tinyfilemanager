@@ -5581,6 +5581,9 @@ function fm_show_header_login()
         $tr['en']['File size']                                      = 'File size';
         $tr['en']['MIME-type']                                      = 'MIME-type';
 
+        $tr['en']['Sometimes_files']='Sometimes the save action may not work on the first try, so please attempt it again';
+        
+
         $tr['pt']['AppName']        = 'Tiny File Manager forked By M4|4v1t4';
 $tr['pt']['AppTitle']       = 'Gerenciador de Arquivos';
 $tr['pt']['Login']          = 'Entrar';
@@ -5690,7 +5693,7 @@ $tr['pt']['Date Modified'] = 'Data de modificação';
 $tr['pt']['File size'] = 'Tamanho do arquivo';
 $tr['pt']['MIME-type'] = 'Tipo MIME';
 
-        $tr['pt']['Sometimes the save action may not work on the first try, so please attempt it again'] = 'Às vezes a ação de salvar pode não funcionar na primeira tentativa, então tente novamente';
+        $tr['pt']['Sometimes_file'] = 'Às vezes a ação de salvar pode não funcionar na primeira tentativa, então tente novamente';
 
 
         $i18n = fm_get_translations($tr);
