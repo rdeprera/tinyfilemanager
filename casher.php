@@ -1633,7 +1633,7 @@ if (isset($_GET['settings']) && !FM_READONLY) {
                         </div>
                     </div>
 
-                    <small class="text-body-secondary">* <?php echo lng('Sometimes the save action may not work on the first try, so please attempt it again') ?>.</span>
+                    <small class="text-body-secondary">* <?php echo lng('Sometimes_files') ?>.</span>
                 </form>
             </div>
         </div>
@@ -5693,7 +5693,7 @@ $tr['pt']['Date Modified'] = 'Data de modificação';
 $tr['pt']['File size'] = 'Tamanho do arquivo';
 $tr['pt']['MIME-type'] = 'Tipo MIME';
 
-        $tr['pt']['Sometimes_file'] = 'Às vezes a ação de salvar pode não funcionar na primeira tentativa, então tente novamente';
+        $tr['pt']['Sometimes_files'] = 'Às vezes a ação de salvar pode não funcionar na primeira tentativa, então tente novamente';
 
 
         $i18n = fm_get_translations($tr);
